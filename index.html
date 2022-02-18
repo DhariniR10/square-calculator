@@ -2,24 +2,16 @@
   <head>
     <title>Your Name</title>
     <link rel="stylesheet" href="mystyles.css" />
-    <script src="calculator.js"></script>
+    <script src="squarecalculator.js"></script>
   </head>
 
   <body>
-    <h3>CALCULATOR</h3>
+    <h3>SQUARE CALCULATOR</h3>
     <form>
-      <label>Number 1 :</label>
-      <input id="n1" type="text" />
-      <label>Number 2 :</label>
-      <input id="n2" type="text" />
-      <button type="button" onclick="add()">+</button>
-      <!--Add onclick attribute for the - (subtract) button :-->
-      <button type="button"onclick="subtract()" >-</button>
-      <!--Add onclick attribute for the / (divide) button :-->
-      <button type="button" onclick="divide()">/</button>
-      <!--Add onclick attribute for the * (multiply) button :-->
-      <button type="button"onclick="multiply()" >*</button>
+      <label>Enter Number:</label>
+      <input id="n" type="text" />
+      <button type="button" onclick="square()">Calculate Square</button>
     </form>
-    <span>Result : </span><span id="answer"></span>
+    <span>Result :</span><span id="answer"></span>
   </body>
 </html>
